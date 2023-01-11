@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mainContainer{
+    height: 100vh;
+    /* border-style: solid; */
+    /* border-color: aqua; */
+}
+
+.navContainer{
+    /* border-style: solid; */
+    /* border-color: blue; */
+    height: 64px;
+    border-bottom-style: solid;
+    border-color: #e2e1e1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navContainer .leftNav{
+    display: flex;
+    align-items: end;
+    
+}
+.navContainer .rightNav{
+    display: flex;
+}
+
+/* styling right links container */
+.Theme{
+    color: #4e4e4e;
+    text-decoration: none;
+    font-weight: 600;
+    display: flex;
+}
+
+.Theme .faMoon{
+    width: 20px;
+}
+
+.searchContainer{
+    display: flex;
+    margin-right: 20px;
+}
+
+.input{
+    border-radius: 100px;
+    border: 1px solid #cdcdcd;
+    width: 85px;
+    margin-right: 10px;
+    padding-left: 10px;
+    height: 26px;
+    transition: width 0.80s;
+}
+
+.input:focus-visible{
+    width: 190px;
+    border: 1px solid #5e9eff;
+    outline: none !important;
+    caret-color: #5e9eff;
+}
+
+.searchContainer img{
+    width: 15px;
+    margin-left: -31px;
+}
+
+
+
+/* links style and hover */
+.mainContainer .styleLinks{
+    /* margin-right: 40px; */
+    color: #4e4e4e;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: -2px;
+    margin-left: 30px;
+    /* border-style: solid; */
+    border-radius: 5px;
+    padding: 5px;
+    transition: all 0.25s ease-in-out;
+
+}
+.hover:hover{
+    background-color:#0085f230;
+}
+
+.logo{
+    width: 160px;
+    margin-left: 15px;
+}
+
+
+.rightNav button{
+    margin-right: 10px;
+    padding: 3px;
+    /* background-color: black; */
+    
+}
+.getPlusButt{
+    background-color: black;
+    border-radius: 4px;
+    width: 108px;
+    margin-left: 10px;
+}
+.themeButton{
+border: none;
+background-color: white;
+}
+
+button.getPlusButt:hover {
+    background: #5c5c5c;
+    outline: none !important;
+    border-color: #5c5c5c;
+}
+
+.styleTextButton{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+
+
